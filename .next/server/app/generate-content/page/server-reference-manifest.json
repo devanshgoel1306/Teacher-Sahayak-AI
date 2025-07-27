@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40cd8c3a6a30f4a98a43562e18d4599e43c7dcb3be": {
+      "workers": {
+        "app/generate-content/page": {
+          "moduleId": "[project]/.next-internal/server/app/generate-content/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/generate-content/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/generate-content/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

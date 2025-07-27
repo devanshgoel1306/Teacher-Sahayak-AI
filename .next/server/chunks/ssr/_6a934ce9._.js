@@ -1,0 +1,893 @@
+module.exports = {
+
+"[project]/src/components/ui/card.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "Card": (()=>Card),
+    "CardContent": (()=>CardContent),
+    "CardDescription": (()=>CardDescription),
+    "CardFooter": (()=>CardFooter),
+    "CardHeader": (()=>CardHeader),
+    "CardTitle": (()=>CardTitle)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/utils.ts [app-ssr] (ecmascript)");
+;
+;
+;
+const Card = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("rounded-lg border bg-card text-card-foreground shadow-sm", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 9,
+        columnNumber: 3
+    }, this));
+Card.displayName = "Card";
+const CardHeader = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("flex flex-col space-y-1.5 p-6", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 24,
+        columnNumber: 3
+    }, this));
+CardHeader.displayName = "CardHeader";
+const CardTitle = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("text-2xl font-semibold leading-none tracking-tight", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 36,
+        columnNumber: 3
+    }, this));
+CardTitle.displayName = "CardTitle";
+const CardDescription = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("text-sm text-muted-foreground", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 51,
+        columnNumber: 3
+    }, this));
+CardDescription.displayName = "CardDescription";
+const CardContent = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("p-6 pt-0", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 63,
+        columnNumber: 3
+    }, this));
+CardContent.displayName = "CardContent";
+const CardFooter = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("flex items-center p-6 pt-0", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 71,
+        columnNumber: 3
+    }, this));
+CardFooter.displayName = "CardFooter";
+;
+}}),
+"[project]/src/ai/flows/teach-anything.ts [app-ssr] (ecmascript)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+const e = new Error(`Could not parse module '[project]/src/ai/flows/teach-anything.ts'
+
+Expression expected`);
+e.code = 'MODULE_UNPARSEABLE';
+throw e;}}),
+"[project]/src/components/icons.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "SahayakLogo": (()=>SahayakLogo)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+;
+function SahayakLogo(props) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 256 256",
+        ...props,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                width: "256",
+                height: "256",
+                fill: "none"
+            }, void 0, false, {
+                fileName: "[project]/src/components/icons.tsx",
+                lineNumber: 10,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                d: "M128,24a104,104,0,1,0,104,104A104.2,104.2,0,0,0,128,24Zm33.4,62.6-40,40a8,8,0,0,1-11.3,0l-40-40a8,8,0,0,1,11.3-11.3L128,121.4l34.7-34.7a8,8,0,0,1,11.3,11.3Z",
+                fill: "currentColor",
+                className: "text-primary"
+            }, void 0, false, {
+                fileName: "[project]/src/components/icons.tsx",
+                lineNumber: 11,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                d: "M128,152a72,72,0,0,0-58.4,28.3,8,8,0,0,0,10.1,12.4,56,56,0,0,1,96.6,0,8,8,0,0,0,10.1-12.4A72,72,0,0,0,128,152Z",
+                fill: "currentColor",
+                className: "text-accent"
+            }, void 0, false, {
+                fileName: "[project]/src/components/icons.tsx",
+                lineNumber: 16,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/icons.tsx",
+        lineNumber: 5,
+        columnNumber: 9
+    }, this);
+}
+}}),
+"[project]/src/ai/flows/data:6893e3 [app-ssr] (ecmascript) <text/javascript>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+/* __next_internal_action_entry_do_not_use__ [{"40c4c028a33451231b59cf1a0b26b6081ec53fd430":"textToSpeech"},"src/ai/flows/text-to-speech.ts",""] */ __turbopack_context__.s({
+    "textToSpeech": (()=>textToSpeech)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js [app-ssr] (ecmascript)");
+"use turbopack no side effects";
+;
+var textToSpeech = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createServerReference"])("40c4c028a33451231b59cf1a0b26b6081ec53fd430", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["callServer"], void 0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$client$2d$wrapper$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["findSourceMapURL"], "textToSpeech"); //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4vdGV4dC10by1zcGVlY2gudHMiXSwic291cmNlc0NvbnRlbnQiOlsiXG4ndXNlIHNlcnZlcic7XG4vKipcbiAqIEBmaWxlT3ZlcnZpZXcgQSB0ZXh0LXRvLXNwZWVjaCBBSSBmbG93LlxuICpcbiAqIC0gdGV4dFRvU3BlZWNoIC0gQSBmdW5jdGlvbiB0aGF0IGNvbnZlcnRzIHRleHQgdG8gc3BlZWNoLlxuICogLSBUZXh0VG9TcGVlY2hJbnB1dCAtIFRoZSBpbnB1dCB0eXBlIGZvciB0aGUgdGV4dFRvU3BlZWNoIGZ1bmN0aW9uLlxuICogLSBUZXh0VG9TcGVlY2hPdXRwdXQgLSBUaGUgcmV0dXJuIHR5cGUgZm9yIHRoZSB0ZXh0VG9TcGVlY2ggZnVuY3Rpb24uXG4gKi9cblxuaW1wb3J0IHthaX0gZnJvbSAnQC9haS9nZW5raXQnO1xuaW1wb3J0IHt6fSBmcm9tICdnZW5raXQnO1xuaW1wb3J0IHdhdiBmcm9tICd3YXYnO1xuaW1wb3J0IHsgZ29vZ2xlQUkgfSBmcm9tICdAZ2Vua2l0LWFpL2dvb2dsZWFpJztcblxuY29uc3QgVGV4dFRvU3BlZWNoSW5wdXRTY2hlbWEgPSB6Lm9iamVjdCh7XG4gIHRleHQ6IHouc3RyaW5nKCkuZGVzY3JpYmUoJ1RoZSB0ZXh0IHRvIGNvbnZlcnQgdG8gc3BlZWNoLicpLFxufSk7XG5leHBvcnQgdHlwZSBUZXh0VG9TcGVlY2hJbnB1dCA9IHouaW5mZXI8dHlwZW9mIFRleHRUb1NwZWVjaElucHV0U2NoZW1hPjtcblxuY29uc3QgVGV4dFRvU3BlZWNoT3V0cHV0U2NoZW1hID0gei5vYmplY3Qoe1xuICBhdWRpb0RhdGFVcmk6IHpcbiAgICAuc3RyaW5nKClcbiAgICAuZGVzY3JpYmUoXG4gICAgICBcIlRoZSBnZW5lcmF0ZWQgYXVkaW8gYXMgYSBkYXRhIFVSSSB0aGF0IG11c3QgaW5jbHVkZSBhIE1JTUUgdHlwZSBhbmQgdXNlIEJhc2U2NCBlbmNvZGluZy4gRXhwZWN0ZWQgZm9ybWF0OiAnZGF0YTo8bWltZXR5cGU+O2Jhc2U2NCw8ZW5jb2RlZF9kYXRhPicuXCJcbiAgICApLFxufSk7XG5leHBvcnQgdHlwZSBUZXh0VG9TcGVlY2hPdXRwdXQgPSB6LmluZmVyPHR5cGVvZiBUZXh0VG9TcGVlY2hPdXRwdXRTY2hlbWE+O1xuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gdGV4dFRvU3BlZWNoKGlucHV0OiBUZXh0VG9TcGVlY2hJbnB1dCk6IFByb21pc2U8VGV4dFRvU3BlZWNoT3V0cHV0PiB7XG4gIHJldHVybiB0ZXh0VG9TcGVlY2hGbG93KGlucHV0KTtcbn1cblxuYXN5bmMgZnVuY3Rpb24gdG9XYXYoXG4gIHBjbURhdGE6IEJ1ZmZlcixcbiAgY2hhbm5lbHMgPSAxLFxuICByYXRlID0gMjQwMDAsXG4gIHNhbXBsZVdpZHRoID0gMlxuKTogUHJvbWlzZTxzdHJpbmc+IHtcbiAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHtcbiAgICBjb25zdCB3cml0ZXIgPSBuZXcgd2F2LldyaXRlcih7XG4gICAgICBjaGFubmVscyxcbiAgICAgIHNhbXBsZVJhdGU6IHJhdGUsXG4gICAgICBiaXREZXB0aDogc2FtcGxlV2lkdGggKiA4LFxuICAgIH0pO1xuXG4gICAgbGV0IGJ1ZnMgPSBbXSBhcyBhbnlbXTtcbiAgICB3cml0ZXIub24oJ2Vycm9yJywgcmVqZWN0KTtcbiAgICB3cml0ZXIub24oJ2RhdGEnLCBmdW5jdGlvbiAoZCkge1xuICAgICAgYnVmcy5wdXNoKGQpO1xuICAgIH0pO1xuICAgIHdyaXRlci5vbignZW5kJywgZnVuY3Rpb24gKCkge1xuICAgICAgcmVzb2x2ZShCdWZmZXIuY29uY2F0KGJ1ZnMpLnRvU3RyaW5nKCdiYXNlNjQnKSk7XG4gICAgfSk7XG5cbiAgICB3cml0ZXIud3JpdGUocGNtRGF0YSk7XG4gICAgd3JpdGVyLmVuZCgpO1xuICB9KTtcbn1cblxuY29uc3QgdGV4dFRvU3BlZWNoRmxvdyA9IGFpLmRlZmluZUZsb3coXG4gIHtcbiAgICBuYW1lOiAndGV4dFRvU3BlZWNoRmxvdycsXG4gICAgaW5wdXRTY2hlbWE6IFRleHRUb1NwZWVjaElucHV0U2NoZW1hLFxuICAgIG91dHB1dFNjaGVtYTogVGV4dFRvU3BlZWNoT3V0cHV0U2NoZW1hLFxuICB9LFxuICBhc3luYyAoe3RleHR9KSA9PiB7XG4gICAgY29uc3QgeyBtZWRpYSB9ID0gYXdhaXQgYWkuZ2VuZXJhdGUoe1xuICAgICAgbW9kZWw6IGdvb2dsZUFJLm1vZGVsKCdnZW1pbmktMi41LWZsYXNoLXByZXZpZXctdHRzJyksXG4gICAgICBjb25maWc6IHtcbiAgICAgICAgcmVzcG9uc2VNb2RhbGl0aWVzOiBbJ0FVRElPJ10sXG4gICAgICAgIHNwZWVjaENvbmZpZzoge1xuICAgICAgICAgIHZvaWNlQ29uZmlnOiB7XG4gICAgICAgICAgICBwcmVidWlsdFZvaWNlQ29uZmlnOiB7IHZvaWNlTmFtZTogJ0FsZ2VuaWInIH0sXG4gICAgICAgICAgfSxcbiAgICAgICAgfSxcbiAgICAgIH0sXG4gICAgICBwcm9tcHQ6IHRleHQsXG4gICAgfSk7XG4gICAgaWYgKCFtZWRpYSkge1xuICAgICAgdGhyb3cgbmV3IEVycm9yKCdObyBtZWRpYSByZXR1cm5lZCBmcm9tIFRUUyBtb2RlbCcpO1xuICAgIH1cbiAgICBjb25zdCBhdWRpb0J1ZmZlciA9IEJ1ZmZlci5mcm9tKFxuICAgICAgbWVkaWEudXJsLnN1YnN0cmluZyhtZWRpYS51cmwuaW5kZXhPZignLCcpICsgMSksXG4gICAgICAnYmFzZTY0J1xuICAgICk7XG4gICAgY29uc3Qgd2F2QmFzZTY0ID0gYXdhaXQgdG9XYXYoYXVkaW9CdWZmZXIpO1xuICAgIFxuICAgIHJldHVybiB7XG4gICAgICBhdWRpb0RhdGFVcmk6ICdkYXRhOmF1ZGlvL3dhdjtiYXNlNjQsJyArIHdhdkJhc2U2NCxcbiAgICB9O1xuICB9XG4pO1xuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJvU0E2QnNCIn0=
+}}),
+"[project]/src/app/dashboard-client.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "DashboardClient": (()=>DashboardClient)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/send.js [app-ssr] (ecmascript) <export default as Send>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/loader-circle.js [app-ssr] (ecmascript) <export default as Loader2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mic$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mic.js [app-ssr] (ecmascript) <export default as Mic>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mic$2d$off$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MicOff$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mic-off.js [app-ssr] (ecmascript) <export default as MicOff>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/button.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/input.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/card.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$ai$2f$flows$2f$teach$2d$anything$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/ai/flows/teach-anything.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/icons.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$ai$2f$flows$2f$data$3a$6893e3__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__ = __turbopack_context__.i("[project]/src/ai/flows/data:6893e3 [app-ssr] (ecmascript) <text/javascript>");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const suggestionPrompts = [
+    {
+        title: "Create a worksheet",
+        prompt: "Create a math worksheet for grade 5 on multiplication",
+        feature: "worksheets"
+    },
+    {
+        title: "Generate a quiz",
+        prompt: "Generate a science quiz about photosynthesis for grade 7",
+        feature: "games"
+    },
+    {
+        title: "Make a visual aid",
+        prompt: "Make a visual aid showing the water cycle",
+        feature: "visual-aids"
+    },
+    {
+        title: "Design a game",
+        prompt: "Design a word scramble game for vocabulary about animals",
+        feature: "games"
+    }
+];
+const featureKeywords = {
+    worksheets: [
+        'worksheet',
+        'exercise',
+        'practice sheet'
+    ],
+    games: [
+        'game',
+        'quiz',
+        'bingo',
+        'riddle',
+        'scramble',
+        'true/false',
+        'fill-in-the-blanks'
+    ],
+    'visual-aids': [
+        'visual',
+        'chart',
+        'diagram',
+        'image',
+        'drawing',
+        'table'
+    ],
+    'knowledge-base': [
+        'explain',
+        'what is',
+        'how do',
+        'why is'
+    ],
+    'generate-content': [
+        'story',
+        'poem',
+        'dialogue',
+        'write a'
+    ]
+};
+function DashboardClient() {
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
+    const [messages, setMessages] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
+    const [prompt, setPrompt] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
+    const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [isRecording, setIsRecording] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const audioRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const recognitionRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        // @ts-ignore
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        if (SpeechRecognition) {
+            recognitionRef.current = new SpeechRecognition();
+            recognitionRef.current.continuous = false;
+            recognitionRef.current.lang = 'en-US';
+            recognitionRef.current.interimResults = false;
+            recognitionRef.current.maxAlternatives = 1;
+            recognitionRef.current.onresult = (event)=>{
+                const spokenText = event.results[0][0].transcript;
+                setPrompt(spokenText);
+                processPrompt(spokenText, true);
+                setIsRecording(false);
+            };
+            recognitionRef.current.onerror = (event)=>{
+                console.error('Speech recognition error:', event.error);
+                setIsRecording(false);
+            };
+            recognitionRef.current.onend = ()=>{
+                setIsRecording(false);
+            };
+        }
+        if (audioRef.current === null) {
+            audioRef.current = new Audio();
+        }
+    }, []);
+    const toggleRecording = ()=>{
+        if (isRecording) {
+            recognitionRef.current?.stop();
+            setIsRecording(false);
+        } else {
+            if (recognitionRef.current) {
+                recognitionRef.current.start();
+                setIsRecording(true);
+            } else {
+                alert("Speech recognition is not supported in this browser.");
+            }
+        }
+    };
+    const detectFeature = (text)=>{
+        const lowerText = text.toLowerCase();
+        for(const feature in featureKeywords){
+            for (const keyword of featureKeywords[feature]){
+                if (lowerText.includes(keyword)) {
+                    return feature;
+                }
+            }
+        }
+        return null;
+    };
+    const redirectToFeature = (feature, promptText)=>{
+        const params = new URLSearchParams();
+        switch(feature){
+            case 'worksheets':
+                const gradeMatch = promptText.match(/grade (\d+)/i);
+                const topicMatch = promptText.match(/(on|about) (.*)/i);
+                if (gradeMatch) params.set('grade', `Grade ${gradeMatch[1]}`);
+                if (topicMatch) params.set('lessonTopic', topicMatch[2]);
+                params.set('mode', 'manual');
+                router.push(`/worksheets?${params.toString()}`);
+                break;
+            case 'games':
+                const gameGradeMatch = promptText.match(/grade (\d+)/i);
+                const gameTopicMatch = promptText.match(/(on|about) ([\w\s]+)/i);
+                const gameTypeMatch = promptText.match(/(quiz|bingo|riddle|scramble|true\/false|fill-in-the-blanks)/i);
+                if (gameGradeMatch) params.set('grade', gameGradeMatch[1]);
+                if (gameTopicMatch) params.set('topic', gameTopicMatch[2].split(" for")[0].trim());
+                if (gameTypeMatch) params.set('gameType', gameTypeMatch[1]);
+                router.push(`/games?${params.toString()}`);
+                break;
+            case 'visual-aids':
+                params.set('description', promptText);
+                router.push(`/visual-aids?${params.toString()}`);
+                break;
+            default:
+                router.push(`/${feature}`);
+        }
+    };
+    const processPrompt = async (promptText, isVoice = false)=>{
+        if (!promptText.trim()) return;
+        setIsLoading(true);
+        const newMessages = [
+            ...messages,
+            {
+                id: Date.now(),
+                text: promptText,
+                isUser: true
+            }
+        ];
+        setMessages(newMessages);
+        setPrompt("");
+        const matchedFeature = detectFeature(promptText);
+        if (matchedFeature) {
+            redirectToFeature(matchedFeature, promptText);
+            return;
+        }
+        try {
+            const result = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$ai$2f$flows$2f$teach$2d$anything$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["teachAnything"])({
+                history: newMessages
+            });
+            setMessages((prev)=>[
+                    ...prev,
+                    {
+                        id: Date.now() + 1,
+                        text: result.response,
+                        isUser: false
+                    }
+                ]);
+            if (isVoice) {
+                const audioResult = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$ai$2f$flows$2f$data$3a$6893e3__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$text$2f$javascript$3e$__["textToSpeech"])({
+                    text: result.response
+                });
+                if (audioResult.audioDataUri && audioRef.current) {
+                    audioRef.current.src = audioResult.audioDataUri;
+                    audioRef.current.play();
+                }
+            }
+        } catch (error) {
+            console.error("AI chat error:", error);
+            setMessages((prev)=>[
+                    ...prev,
+                    {
+                        id: Date.now() + 1,
+                        text: "Sorry, I ran into a problem. Please try again.",
+                        isUser: false
+                    }
+                ]);
+        } finally{
+            setIsLoading(false);
+        }
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "flex flex-col h-full w-full max-w-4xl mx-auto",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex-1 pb-24",
+                children: messages.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "text-center py-12",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                            className: "text-4xl font-bold font-headline mb-4",
+                            children: "Salute, Super Teacher! 👋"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/dashboard-client.tsx",
+                            lineNumber: 189,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-muted-foreground text-lg",
+                            children: "How can I assist you with your teaching today?"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/dashboard-client.tsx",
+                            lineNumber: 190,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid grid-cols-1 md:grid-cols-2 gap-4 mt-12",
+                            children: suggestionPrompts.map((p)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
+                                    className: "p-4 text-left hover:bg-muted cursor-pointer transition-colors",
+                                    onClick: ()=>redirectToFeature(p.feature, p.prompt),
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
+                                        className: "p-0",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "font-semibold",
+                                                children: p.title
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/dashboard-client.tsx",
+                                                lineNumber: 199,
+                                                columnNumber: 23
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-sm text-muted-foreground",
+                                                children: p.prompt
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/dashboard-client.tsx",
+                                                lineNumber: 200,
+                                                columnNumber: 23
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/dashboard-client.tsx",
+                                        lineNumber: 198,
+                                        columnNumber: 21
+                                    }, this)
+                                }, p.title, false, {
+                                    fileName: "[project]/src/app/dashboard-client.tsx",
+                                    lineNumber: 193,
+                                    columnNumber: 17
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/dashboard-client.tsx",
+                            lineNumber: 191,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/app/dashboard-client.tsx",
+                    lineNumber: 188,
+                    columnNumber: 11
+                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "space-y-6 pt-4",
+                    children: [
+                        messages.map((msg)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: `flex ${msg.isUser ? 'justify-end' : 'justify-start'}`,
+                                children: [
+                                    !msg.isUser && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SahayakLogo"], {
+                                        className: "w-8 h-8 mr-2 shrink-0"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/dashboard-client.tsx",
+                                        lineNumber: 210,
+                                        columnNumber: 33
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: `px-4 py-3 rounded-2xl max-w-xl ${msg.isUser ? 'bg-primary text-primary-foreground rounded-br-none' : 'bg-muted rounded-bl-none'}`,
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
+                                            className: "whitespace-pre-wrap font-body text-base",
+                                            children: msg.text
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/dashboard-client.tsx",
+                                            lineNumber: 212,
+                                            columnNumber: 19
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/dashboard-client.tsx",
+                                        lineNumber: 211,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, msg.id, true, {
+                                fileName: "[project]/src/app/dashboard-client.tsx",
+                                lineNumber: 209,
+                                columnNumber: 15
+                            }, this)),
+                        isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex justify-start",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SahayakLogo"], {
+                                    className: "w-8 h-8 mr-2 shrink-0"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/dashboard-client.tsx",
+                                    lineNumber: 218,
+                                    columnNumber: 18
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "px-4 py-3 rounded-2xl max-w-xl bg-muted rounded-bl-none flex items-center",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__["Loader2"], {
+                                        className: "h-5 w-5 animate-spin"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/dashboard-client.tsx",
+                                        lineNumber: 220,
+                                        columnNumber: 21
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/dashboard-client.tsx",
+                                    lineNumber: 219,
+                                    columnNumber: 18
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/app/dashboard-client.tsx",
+                            lineNumber: 217,
+                            columnNumber: 16
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/app/dashboard-client.tsx",
+                    lineNumber: 207,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/dashboard-client.tsx",
+                lineNumber: 186,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "fixed bottom-0 right-0 left-0 md:left-[14rem] bg-background/80 backdrop-blur-sm",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-4xl mx-auto px-4 py-4",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
+                                type: "text",
+                                placeholder: "Ask me anything about teaching...",
+                                value: prompt,
+                                onChange: (e)=>setPrompt(e.target.value),
+                                onKeyDown: (e)=>{
+                                    if (e.key === 'Enter') processPrompt(prompt);
+                                },
+                                className: "w-full p-6 border rounded-full focus:outline-none focus:ring-2 focus:ring-primary pr-28",
+                                disabled: isLoading || isRecording
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/dashboard-client.tsx",
+                                lineNumber: 231,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute right-2.5 top-1/2 -translate-y-1/2 flex items-center gap-1",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
+                                        size: "icon",
+                                        variant: isRecording ? 'destructive' : 'ghost',
+                                        className: "rounded-full",
+                                        onClick: toggleRecording,
+                                        disabled: isLoading,
+                                        children: isRecording ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mic$2d$off$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MicOff$3e$__["MicOff"], {}, void 0, false, {
+                                            fileName: "[project]/src/app/dashboard-client.tsx",
+                                            lineNumber: 248,
+                                            columnNumber: 34
+                                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mic$3e$__["Mic"], {}, void 0, false, {
+                                            fileName: "[project]/src/app/dashboard-client.tsx",
+                                            lineNumber: 248,
+                                            columnNumber: 47
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/dashboard-client.tsx",
+                                        lineNumber: 241,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
+                                        size: "icon",
+                                        className: "rounded-full",
+                                        onClick: ()=>processPrompt(prompt),
+                                        disabled: isLoading || !prompt.trim() || isRecording,
+                                        children: isLoading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__["Loader2"], {
+                                            className: "animate-spin"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/dashboard-client.tsx",
+                                            lineNumber: 256,
+                                            columnNumber: 32
+                                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__["Send"], {}, void 0, false, {
+                                            fileName: "[project]/src/app/dashboard-client.tsx",
+                                            lineNumber: 256,
+                                            columnNumber: 71
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/dashboard-client.tsx",
+                                        lineNumber: 250,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/dashboard-client.tsx",
+                                lineNumber: 240,
+                                columnNumber: 14
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/dashboard-client.tsx",
+                        lineNumber: 230,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/app/dashboard-client.tsx",
+                    lineNumber: 229,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/dashboard-client.tsx",
+                lineNumber: 228,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/app/dashboard-client.tsx",
+        lineNumber: 185,
+        columnNumber: 5
+    }, this);
+}
+}}),
+"[project]/node_modules/next/navigation.js [app-ssr] (ecmascript)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+module.exports = __turbopack_context__.r("[project]/node_modules/next/dist/client/components/navigation.js [app-ssr] (ecmascript)");
+}}),
+"[project]/node_modules/lucide-react/dist/esm/icons/send.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+/**
+ * @license lucide-react v0.475.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s({
+    "__iconNode": (()=>__iconNode),
+    "default": (()=>Send)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-ssr] (ecmascript)");
+;
+const __iconNode = [
+    [
+        "path",
+        {
+            d: "M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z",
+            key: "1ffxy3"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "m21.854 2.147-10.94 10.939",
+            key: "12cjpa"
+        }
+    ]
+];
+const Send = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])("Send", __iconNode);
+;
+ //# sourceMappingURL=send.js.map
+}}),
+"[project]/node_modules/lucide-react/dist/esm/icons/send.js [app-ssr] (ecmascript) <export default as Send>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "Send": (()=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/send.js [app-ssr] (ecmascript)");
+}}),
+"[project]/node_modules/lucide-react/dist/esm/icons/loader-circle.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+/**
+ * @license lucide-react v0.475.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s({
+    "__iconNode": (()=>__iconNode),
+    "default": (()=>LoaderCircle)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-ssr] (ecmascript)");
+;
+const __iconNode = [
+    [
+        "path",
+        {
+            d: "M21 12a9 9 0 1 1-6.219-8.56",
+            key: "13zald"
+        }
+    ]
+];
+const LoaderCircle = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])("LoaderCircle", __iconNode);
+;
+ //# sourceMappingURL=loader-circle.js.map
+}}),
+"[project]/node_modules/lucide-react/dist/esm/icons/loader-circle.js [app-ssr] (ecmascript) <export default as Loader2>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "Loader2": (()=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/loader-circle.js [app-ssr] (ecmascript)");
+}}),
+"[project]/node_modules/lucide-react/dist/esm/icons/mic.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+/**
+ * @license lucide-react v0.475.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s({
+    "__iconNode": (()=>__iconNode),
+    "default": (()=>Mic)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-ssr] (ecmascript)");
+;
+const __iconNode = [
+    [
+        "path",
+        {
+            d: "M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z",
+            key: "131961"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M19 10v2a7 7 0 0 1-14 0v-2",
+            key: "1vc78b"
+        }
+    ],
+    [
+        "line",
+        {
+            x1: "12",
+            x2: "12",
+            y1: "19",
+            y2: "22",
+            key: "x3vr5v"
+        }
+    ]
+];
+const Mic = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])("Mic", __iconNode);
+;
+ //# sourceMappingURL=mic.js.map
+}}),
+"[project]/node_modules/lucide-react/dist/esm/icons/mic.js [app-ssr] (ecmascript) <export default as Mic>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "Mic": (()=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mic.js [app-ssr] (ecmascript)");
+}}),
+"[project]/node_modules/lucide-react/dist/esm/icons/mic-off.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+/**
+ * @license lucide-react v0.475.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s({
+    "__iconNode": (()=>__iconNode),
+    "default": (()=>MicOff)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-ssr] (ecmascript)");
+;
+const __iconNode = [
+    [
+        "line",
+        {
+            x1: "2",
+            x2: "22",
+            y1: "2",
+            y2: "22",
+            key: "a6p6uj"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M18.89 13.23A7.12 7.12 0 0 0 19 12v-2",
+            key: "80xlxr"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M5 10v2a7 7 0 0 0 12 5",
+            key: "p2k8kg"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M15 9.34V5a3 3 0 0 0-5.68-1.33",
+            key: "1gzdoj"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M9 9v3a3 3 0 0 0 5.12 2.12",
+            key: "r2i35w"
+        }
+    ],
+    [
+        "line",
+        {
+            x1: "12",
+            x2: "12",
+            y1: "19",
+            y2: "22",
+            key: "x3vr5v"
+        }
+    ]
+];
+const MicOff = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])("MicOff", __iconNode);
+;
+ //# sourceMappingURL=mic-off.js.map
+}}),
+"[project]/node_modules/lucide-react/dist/esm/icons/mic-off.js [app-ssr] (ecmascript) <export default as MicOff>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "MicOff": (()=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mic$2d$off$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mic$2d$off$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mic-off.js [app-ssr] (ecmascript)");
+}}),
+"[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js [app-ssr] (ecmascript)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+// This file must be bundled in the app's client layer, it shouldn't be directly
+// imported by the server.
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+0 && (module.exports = {
+    callServer: null,
+    createServerReference: null,
+    findSourceMapURL: null
+});
+function _export(target, all) {
+    for(var name in all)Object.defineProperty(target, name, {
+        enumerable: true,
+        get: all[name]
+    });
+}
+_export(exports, {
+    callServer: function() {
+        return _appcallserver.callServer;
+    },
+    createServerReference: function() {
+        return createServerReference;
+    },
+    findSourceMapURL: function() {
+        return _appfindsourcemapurl.findSourceMapURL;
+    }
+});
+const _appcallserver = __turbopack_context__.r("[project]/node_modules/next/dist/client/app-call-server.js [app-ssr] (ecmascript)");
+const _appfindsourcemapurl = __turbopack_context__.r("[project]/node_modules/next/dist/client/app-find-source-map-url.js [app-ssr] (ecmascript)");
+const createServerReference = (("TURBOPACK compile-time truthy", 1) ? __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-server-dom-turbopack-client-edge.js [app-ssr] (ecmascript)") : ("TURBOPACK unreachable", undefined)).createServerReference; //# sourceMappingURL=action-client-wrapper.js.map
+}}),
+
+};
+
+//# sourceMappingURL=_6a934ce9._.js.map

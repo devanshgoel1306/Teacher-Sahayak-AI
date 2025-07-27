@@ -1,0 +1,39 @@
+{
+  "node": {
+    "40f4e56a2b2c9e62cbc0c3320c3c6d55217611e928": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/teach-anything.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "40876159b983e83caf16176472efb6e1040507795d": {
+      "workers": {
+        "app/worksheets/page": {
+          "moduleId": "[project]/.next-internal/server/app/worksheets/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/worksheets/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/worksheets/page": "action-browser"
+      }
+    },
+    "40cd8c3a6a30f4a98a43562e18d4599e43c7dcb3be": {
+      "workers": {
+        "app/generate-content/page": {
+          "moduleId": "[project]/.next-internal/server/app/generate-content/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/generate-content/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/generate-content/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "QNWVFZvCKyBrJJd5vidAVhM8bon22ognb3LPgPGqopQ="
+}

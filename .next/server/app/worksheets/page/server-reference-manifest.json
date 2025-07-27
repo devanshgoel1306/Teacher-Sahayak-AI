@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40876159b983e83caf16176472efb6e1040507795d": {
+      "workers": {
+        "app/worksheets/page": {
+          "moduleId": "[project]/.next-internal/server/app/worksheets/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/worksheets/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/worksheets/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

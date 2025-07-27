@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40c9c6fb1f9c96f1b4b93c9a496d48502f1dce2a66": {
+      "workers": {
+        "app/games/page": {
+          "moduleId": "[project]/.next-internal/server/app/games/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/educational-game-generation.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/games/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}

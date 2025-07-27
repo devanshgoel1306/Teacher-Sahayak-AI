@@ -1,0 +1,16 @@
+{
+  "node": {
+    "401dc204adcbf9f8905c570adde931397edab7a3a0": {
+      "workers": {
+        "app/knowledge-base/page": {
+          "moduleId": "[project]/.next-internal/server/app/knowledge-base/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/knowledge-base/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/knowledge-base/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}
